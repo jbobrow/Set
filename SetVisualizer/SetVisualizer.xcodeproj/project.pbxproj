@@ -1,0 +1,242 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2BF7BD041587B34E00C46704 /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD031587B34E00C46704 /* AppDelegate.mm */; };
+		2BF7BD061587B34E00C46704 /* en.strings in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7BD051587B34E00C46704 /* en.strings */; };
+		2BF7BD081587B34E00C46704 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD071587B34E00C46704 /* main.m */; };
+		2BF7BD0A1587B34E00C46704 /* main.pch in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7BD091587B34E00C46704 /* main.pch */; };
+		2BF7BD0D1587B34E00C46704 /* main.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7BD0C1587B34E00C46704 /* main.xib */; };
+		2BF7BD101587B34E00C46704 /* poOpenGLView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD0F1587B34E00C46704 /* poOpenGLView.mm */; };
+		2BF7BD141587B34E00C46704 /* SetVisualizerApp.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD131587B34E00C46704 /* SetVisualizerApp.cpp */; };
+		2BF7BD161587B34E00C46704 /* AppConfig.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD151587B34E00C46704 /* AppConfig.cpp */; };
+		2BF7BD181587B34E00C46704 /* OpenSans-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 2BF7BD171587B34E00C46704 /* OpenSans-Regular.ttf */; };
+		2BF7BD201587B36200C46704 /* Card.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD1E1587B36200C46704 /* Card.cpp */; };
+		2BF7BD871587D1EE00C46704 /* Deck.cpp in Sources */ = {isa = PBXBuildFile; fileRef = 2BF7BD851587D1EE00C46704 /* Deck.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2BF7BCFB1587B34D00C46704 /* SetVisualizer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SetVisualizer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2BF7BD001587B34D00C46704 /* Debug.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Debug.xcconfig; path = ../platform/Debug.xcconfig; sourceTree = "<group>"; };
+		2BF7BD011587B34E00C46704 /* Release.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; name = Release.xcconfig; path = ../platform/Release.xcconfig; sourceTree = "<group>"; };
+		2BF7BD021587B34E00C46704 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../platform/AppDelegate.h; sourceTree = "<group>"; };
+		2BF7BD031587B34E00C46704 /* AppDelegate.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = AppDelegate.mm; path = ../platform/AppDelegate.mm; sourceTree = "<group>"; };
+		2BF7BD051587B34E00C46704 /* en.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en.strings; path = ../platform/en.strings; sourceTree = "<group>"; };
+		2BF7BD071587B34E00C46704 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../platform/main.m; sourceTree = "<group>"; };
+		2BF7BD091587B34E00C46704 /* main.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = main.pch; path = ../platform/main.pch; sourceTree = "<group>"; };
+		2BF7BD0B1587B34E00C46704 /* main.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = main.plist; path = ../platform/main.plist; sourceTree = "<group>"; };
+		2BF7BD0C1587B34E00C46704 /* main.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = main.xib; path = ../platform/main.xib; sourceTree = "<group>"; };
+		2BF7BD0E1587B34E00C46704 /* poOpenGLView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = poOpenGLView.h; path = ../platform/poOpenGLView.h; sourceTree = "<group>"; };
+		2BF7BD0F1587B34E00C46704 /* poOpenGLView.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; name = poOpenGLView.mm; path = ../platform/poOpenGLView.mm; sourceTree = "<group>"; };
+		2BF7BD121587B34E00C46704 /* SetVisualizerApp.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SetVisualizerApp.h; sourceTree = "<group>"; };
+		2BF7BD131587B34E00C46704 /* SetVisualizerApp.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = SetVisualizerApp.cpp; sourceTree = "<group>"; };
+		2BF7BD151587B34E00C46704 /* AppConfig.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = AppConfig.cpp; sourceTree = "<group>"; };
+		2BF7BD171587B34E00C46704 /* OpenSans-Regular.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "OpenSans-Regular.ttf"; path = "../platform/OpenSans-Regular.ttf"; sourceTree = "<group>"; };
+		2BF7BD1E1587B36200C46704 /* Card.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Card.cpp; sourceTree = "<group>"; };
+		2BF7BD1F1587B36200C46704 /* Card.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Card.h; sourceTree = "<group>"; };
+		2BF7BD851587D1EE00C46704 /* Deck.cpp */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; path = Deck.cpp; sourceTree = "<group>"; };
+		2BF7BD861587D1EE00C46704 /* Deck.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Deck.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2BF7BCF81587B34D00C46704 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2BF7BCF01587B34D00C46704 = {
+			isa = PBXGroup;
+			children = (
+				2BF7BCFE1587B34D00C46704 /* SetVisualizer */,
+				2BF7BCFC1587B34D00C46704 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		2BF7BCFC1587B34D00C46704 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2BF7BCFB1587B34D00C46704 /* SetVisualizer.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2BF7BCFE1587B34D00C46704 /* SetVisualizer */ = {
+			isa = PBXGroup;
+			children = (
+				2BF7BCFF1587B34D00C46704 /* platform */,
+				2BF7BD111587B34E00C46704 /* application */,
+			);
+			path = SetVisualizer;
+			sourceTree = "<group>";
+		};
+		2BF7BCFF1587B34D00C46704 /* platform */ = {
+			isa = PBXGroup;
+			children = (
+				2BF7BD001587B34D00C46704 /* Debug.xcconfig */,
+				2BF7BD011587B34E00C46704 /* Release.xcconfig */,
+				2BF7BD021587B34E00C46704 /* AppDelegate.h */,
+				2BF7BD031587B34E00C46704 /* AppDelegate.mm */,
+				2BF7BD051587B34E00C46704 /* en.strings */,
+				2BF7BD071587B34E00C46704 /* main.m */,
+				2BF7BD091587B34E00C46704 /* main.pch */,
+				2BF7BD0B1587B34E00C46704 /* main.plist */,
+				2BF7BD0C1587B34E00C46704 /* main.xib */,
+				2BF7BD0E1587B34E00C46704 /* poOpenGLView.h */,
+				2BF7BD0F1587B34E00C46704 /* poOpenGLView.mm */,
+				2BF7BD171587B34E00C46704 /* OpenSans-Regular.ttf */,
+			);
+			name = platform;
+			sourceTree = "<group>";
+		};
+		2BF7BD111587B34E00C46704 /* application */ = {
+			isa = PBXGroup;
+			children = (
+				2BF7BD851587D1EE00C46704 /* Deck.cpp */,
+				2BF7BD861587D1EE00C46704 /* Deck.h */,
+				2BF7BD1E1587B36200C46704 /* Card.cpp */,
+				2BF7BD1F1587B36200C46704 /* Card.h */,
+				2BF7BD121587B34E00C46704 /* SetVisualizerApp.h */,
+				2BF7BD131587B34E00C46704 /* SetVisualizerApp.cpp */,
+				2BF7BD151587B34E00C46704 /* AppConfig.cpp */,
+			);
+			name = application;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2BF7BCFA1587B34D00C46704 /* SetVisualizer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2BF7BD1B1587B34E00C46704 /* Build configuration list for PBXNativeTarget "SetVisualizer" */;
+			buildPhases = (
+				2BF7BCF71587B34D00C46704 /* Sources */,
+				2BF7BCF81587B34D00C46704 /* Frameworks */,
+				2BF7BCF91587B34D00C46704 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SetVisualizer;
+			productName = SetVisualizer;
+			productReference = 2BF7BCFB1587B34D00C46704 /* SetVisualizer.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2BF7BCF21587B34D00C46704 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 2BF7BCF51587B34D00C46704 /* Build configuration list for PBXProject "SetVisualizer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 2BF7BCF01587B34D00C46704;
+			productRefGroup = 2BF7BCFC1587B34D00C46704 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2BF7BCFA1587B34D00C46704 /* SetVisualizer */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2BF7BCF91587B34D00C46704 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF7BD061587B34E00C46704 /* en.strings in Resources */,
+				2BF7BD0A1587B34E00C46704 /* main.pch in Resources */,
+				2BF7BD0D1587B34E00C46704 /* main.xib in Resources */,
+				2BF7BD181587B34E00C46704 /* OpenSans-Regular.ttf in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2BF7BCF71587B34D00C46704 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2BF7BD041587B34E00C46704 /* AppDelegate.mm in Sources */,
+				2BF7BD081587B34E00C46704 /* main.m in Sources */,
+				2BF7BD101587B34E00C46704 /* poOpenGLView.mm in Sources */,
+				2BF7BD141587B34E00C46704 /* SetVisualizerApp.cpp in Sources */,
+				2BF7BD161587B34E00C46704 /* AppConfig.cpp in Sources */,
+				2BF7BD201587B36200C46704 /* Card.cpp in Sources */,
+				2BF7BD871587D1EE00C46704 /* Deck.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		2BF7BD191587B34E00C46704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF7BD001587B34D00C46704 /* Debug.xcconfig */;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2BF7BD1A1587B34E00C46704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2BF7BD011587B34E00C46704 /* Release.xcconfig */;
+			buildSettings = {
+			};
+			name = Release;
+		};
+		2BF7BD1C1587B34E00C46704 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Debug;
+		};
+		2BF7BD1D1587B34E00C46704 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2BF7BCF51587B34D00C46704 /* Build configuration list for PBXProject "SetVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF7BD191587B34E00C46704 /* Debug */,
+				2BF7BD1A1587B34E00C46704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2BF7BD1B1587B34E00C46704 /* Build configuration list for PBXNativeTarget "SetVisualizer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2BF7BD1C1587B34E00C46704 /* Debug */,
+				2BF7BD1D1587B34E00C46704 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2BF7BCF21587B34D00C46704 /* Project object */;
+}
